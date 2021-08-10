@@ -7,6 +7,10 @@
         android:label="great_places_app"
         android:icon="@mipmap/ic_launcher">
        <meta-data android:name="com.google.android.geo.API_KEY" android:value="YOUR KEY HERE"/>
+       <meta-data
+           android:name="io.flutter.embedding.android.SplashScreenDrawable"
+           android:resource="@drawable/launch_background"
+           />
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
